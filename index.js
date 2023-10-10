@@ -13,7 +13,7 @@ while (!registration) {
 
   if (userLogin === authLogin && userPassword === authPassword) {
     alert("Всё в порядке. Вы авторизованы!");
-    registrtion = true; 
+    registration = true; 
   } else {
 
     alert("Неправильный логин или пароль. Попробуйте еще раз.");
